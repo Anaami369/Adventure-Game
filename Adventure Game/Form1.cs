@@ -12,7 +12,7 @@ using System.Threading;
 
 namespace Adventure_Game
 {
-    public partial class Form1 : Form
+    public partial class AdventureGame : Form
     {
 
         int scene = 0;
@@ -23,7 +23,7 @@ namespace Adventure_Game
 
         int random;
 
-        public Form1()
+        public AdventureGame()
         {
             InitializeComponent();
 
@@ -71,8 +71,8 @@ namespace Adventure_Game
 
                 else if (scene == 28) { scene = 29; }
                 else if (scene == 29) { scene = 89; }
-                else if (scene == 89) { scene = 100; }
-                else if (scene == 99) { scene = 100; }
+                else if (scene == 89) { scene = 0; }
+                else if (scene == 99) { scene = 0; }
 
             }
             else if (e.KeyCode.Equals(Keys.B))  //blue button press
@@ -159,28 +159,52 @@ namespace Adventure_Game
                         case 1:
                             pictureBox.Image = Properties.Resources.lost;
 
-                            scene = 99;
+                            player = new SoundPlayer(Properties.Resources.game_over_sound);
+                            player.Play();
+
+                            outputLabel.Text = "Play again?";
+
+                            redLabel.Text = "Yes";
+                            blueLabel.Text = "No";
 
                             break;
 
                         case 2:
                             pictureBox.Image = Properties.Resources.lost;
 
-                            scene = 99;
+                            player = new SoundPlayer(Properties.Resources.game_over_sound);
+                            player.Play();
+
+                            outputLabel.Text = "Play again?";
+
+                            redLabel.Text = "Yes";
+                            blueLabel.Text = "No";
 
                             break;
 
                         case 3:
                             pictureBox.Image = Properties.Resources.lost;
 
-                            scene = 99;
+                            player = new SoundPlayer(Properties.Resources.game_over_sound);
+                            player.Play();
+
+                            outputLabel.Text = "Play again?";
+
+                            redLabel.Text = "Yes";
+                            blueLabel.Text = "No";
 
                             break;
 
                         case 4:
                             pictureBox.Image = Properties.Resources.lost;
 
-                            scene = 99;
+                            player = new SoundPlayer(Properties.Resources.game_over_sound);
+                            player.Play();
+
+                            outputLabel.Text = "Play again?";
+
+                            redLabel.Text = "Yes";
+                            blueLabel.Text = "No";
 
                             break;
 
@@ -276,21 +300,39 @@ namespace Adventure_Game
                         case 1:
                             pictureBox.Image = Properties.Resources.lost;
 
-                            scene = 99;
+                            player = new SoundPlayer(Properties.Resources.game_over_sound);
+                            player.Play();
+
+                            outputLabel.Text = "Play again?";
+
+                            redLabel.Text = "Yes";
+                            blueLabel.Text = "No";
 
                             break;
 
                         case 2:
                             pictureBox.Image = Properties.Resources.lost;
 
-                            scene = 99;
+                            player = new SoundPlayer(Properties.Resources.game_over_sound);
+                            player.Play();
+
+                            outputLabel.Text = "Play again?";
+
+                            redLabel.Text = "Yes";
+                            blueLabel.Text = "No";
 
                             break;
 
                         case 3:
                             pictureBox.Image = Properties.Resources.lost;
 
-                            scene = 99;
+                            player = new SoundPlayer(Properties.Resources.game_over_sound);
+                            player.Play();
+
+                            outputLabel.Text = "Play again?";
+
+                            redLabel.Text = "Yes";
+                            blueLabel.Text = "No";
 
                             break;
 
@@ -397,7 +439,7 @@ namespace Adventure_Game
 
                     Thread.Sleep(2000);
 
-                    scene = 100;
+                    scene = 89;
 
                     break;
 
@@ -519,7 +561,10 @@ namespace Adventure_Game
                             player = new SoundPlayer(Properties.Resources.game_over_sound);
                             player.Play();
 
-                            outputLabel.Text = "";
+                            outputLabel.Text = "Play again?";
+
+                            redLabel.Text = "Yes";
+                            blueLabel.Text = "No";
 
                             scene = 99;
                             break;
@@ -537,10 +582,10 @@ namespace Adventure_Game
 
                     pictureBox.Image = Properties.Resources.lost;
 
-                    outputLabel.Text = "";
+                    outputLabel.Text = "Play again?";
 
-                    redLabel.Text = "";
-                    blueLabel.Text = "";
+                    redLabel.Text = "Yes";
+                    blueLabel.Text = "No";
 
                     Thread.Sleep(3000);
                     break;
@@ -551,10 +596,10 @@ namespace Adventure_Game
 
                     pictureBox.Image = Properties.Resources.winner_screen;
 
-                    outputLabel.Text = "";
+                    outputLabel.Text = "Play again?";
 
-                    redLabel.Text = "";
-                    blueLabel.Text = "";
+                    redLabel.Text = "Yes";
+                    blueLabel.Text = "No";
 
                     Thread.Sleep(3000);
 
