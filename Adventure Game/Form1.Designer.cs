@@ -28,39 +28,14 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.blueButton = new System.Windows.Forms.Button();
-            this.redButton = new System.Windows.Forms.Button();
             this.blueLabel = new System.Windows.Forms.Label();
             this.redLabel = new System.Windows.Forms.Label();
             this.outputLabel = new System.Windows.Forms.Label();
+            this.redButton = new System.Windows.Forms.Button();
+            this.blueButton = new System.Windows.Forms.Button();
             this.pictureBox = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox)).BeginInit();
             this.SuspendLayout();
-            // 
-            // blueButton
-            // 
-            this.blueButton.BackColor = System.Drawing.Color.Transparent;
-            this.blueButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.blueButton.Image = global::Adventure_Game.Properties.Resources.blue_button;
-            this.blueButton.Location = new System.Drawing.Point(15, 310);
-            this.blueButton.Name = "blueButton";
-            this.blueButton.Size = new System.Drawing.Size(60, 60);
-            this.blueButton.TabIndex = 1;
-            this.blueButton.UseVisualStyleBackColor = false;
-            this.blueButton.Click += new System.EventHandler(this.blueButton_Click);
-            // 
-            // redButton
-            // 
-            this.redButton.BackColor = System.Drawing.Color.Transparent;
-            this.redButton.BackgroundImage = global::Adventure_Game.Properties.Resources.red_button;
-            this.redButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.redButton.Image = global::Adventure_Game.Properties.Resources.red_button;
-            this.redButton.Location = new System.Drawing.Point(15, 383);
-            this.redButton.Name = "redButton";
-            this.redButton.Size = new System.Drawing.Size(60, 60);
-            this.redButton.TabIndex = 2;
-            this.redButton.UseVisualStyleBackColor = false;
-            this.redButton.Click += new System.EventHandler(this.redButton_Click);
             // 
             // blueLabel
             // 
@@ -94,6 +69,31 @@
             this.outputLabel.Size = new System.Drawing.Size(371, 298);
             this.outputLabel.TabIndex = 5;
             // 
+            // redButton
+            // 
+            this.redButton.BackColor = System.Drawing.Color.Transparent;
+            this.redButton.BackgroundImage = global::Adventure_Game.Properties.Resources.red_button;
+            this.redButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.redButton.Image = global::Adventure_Game.Properties.Resources.red_button;
+            this.redButton.Location = new System.Drawing.Point(15, 383);
+            this.redButton.Name = "redButton";
+            this.redButton.Size = new System.Drawing.Size(60, 60);
+            this.redButton.TabIndex = 2;
+            this.redButton.UseVisualStyleBackColor = false;
+            this.redButton.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Form1_KeyDown_1);
+            // 
+            // blueButton
+            // 
+            this.blueButton.BackColor = System.Drawing.Color.Transparent;
+            this.blueButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.blueButton.Image = global::Adventure_Game.Properties.Resources.blue_button;
+            this.blueButton.Location = new System.Drawing.Point(15, 310);
+            this.blueButton.Name = "blueButton";
+            this.blueButton.Size = new System.Drawing.Size(60, 60);
+            this.blueButton.TabIndex = 1;
+            this.blueButton.UseVisualStyleBackColor = false;
+            this.blueButton.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Form1_KeyDown_1);
+            // 
             // pictureBox
             // 
             this.pictureBox.Image = global::Adventure_Game.Properties.Resources.river_bank;
@@ -119,6 +119,7 @@
             this.Controls.Add(this.pictureBox);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "Form1";
+            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Form1_KeyDown_1);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox)).EndInit();
             this.ResumeLayout(false);
 

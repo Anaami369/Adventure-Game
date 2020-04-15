@@ -188,5 +188,23 @@
   <ItemGroup>
     <None Include="Resources\dead man - Copy.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\game over sound.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Game start sound.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\flying spoon.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shack.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\my name is faart.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ghost.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

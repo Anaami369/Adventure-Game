@@ -213,6 +213,44 @@ namespace Adventure_Game.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap flying_spoon {
+            get {
+                object obj = ResourceManager.GetObject("flying_spoon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream game_over_sound {
+            get {
+                return ResourceManager.GetStream("game_over_sound", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream game_start_sound {
+            get {
+                return ResourceManager.GetStream("game_start_sound", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ghost {
+            get {
+                object obj = ResourceManager.GetObject("ghost", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap grave {
             get {
                 object obj = ResourceManager.GetObject("grave", resourceCulture);
@@ -283,6 +321,16 @@ namespace Adventure_Game.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap my_name_is_faart {
+            get {
+                object obj = ResourceManager.GetObject("my_name_is_faart", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap old_stove {
             get {
                 object obj = ResourceManager.GetObject("old stove", resourceCulture);
@@ -346,6 +394,16 @@ namespace Adventure_Game.Properties {
         internal static System.Drawing.Bitmap scooby {
             get {
                 object obj = ResourceManager.GetObject("scooby", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap shack {
+            get {
+                object obj = ResourceManager.GetObject("shack", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

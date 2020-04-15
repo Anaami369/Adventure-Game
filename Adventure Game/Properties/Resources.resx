@@ -163,6 +163,18 @@
   <data name="duffel bag" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\duffel bag.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="flying_spoon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\flying spoon.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="game_over_sound" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\game over sound.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="game_start_sound" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Game start sound.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ghost" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ghost.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="grave" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\grave.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -184,6 +196,9 @@
   <data name="masked_person" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\masked person.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="my_name_is_faart" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\my name is faart.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="old stove" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\old stove.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -204,6 +219,9 @@
   </data>
   <data name="scooby" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\scooby.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shack" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shack.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="stairs" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\stairs.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
